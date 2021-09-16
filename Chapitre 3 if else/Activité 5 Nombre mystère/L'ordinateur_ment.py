@@ -39,8 +39,7 @@ class Game:
 
 
 def main():
-
-    nb_mystere = random.randint(1, 2)
+    nb_mystere = random.randint(1, 100)
     print('Nombre mystère entre 1 et 100')
 
     game = Game(nb_mystere)
