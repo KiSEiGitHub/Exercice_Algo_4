@@ -1,6 +1,6 @@
-def table(x):
+def table(y):
     for i in range(1, 11):
-        print(f'{x} * {i} = {x * i}')
+        print(f'{y} * {i} = {y * i}')
     print('-' * 50)
 
 def main():
