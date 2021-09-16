@@ -1,7 +1,7 @@
 def table_7():
     for i in range(1, 11):
         print(f'{7} * {i} = {7 * i}')
-    print('-' * 50)
+    print('-' * 49)
 
 def main():
     table_7()
