@@ -1,9 +1,9 @@
-def affiche_bonjour(x):
-    print(f'Bonjour {x}')
+def affiche_bonjour():
+    a = input('nom: ')
+    print(f'Bonjour {a}')
 
 def main():
-    a = input('prenom: ')
-    affiche_bonjour(a)
+    affiche_bonjour()
 
 if __name__ == '__main__':
     main()
