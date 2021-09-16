@@ -1,12 +1,10 @@
-def table(x):
+def table_7():
     for i in range(1, 11):
-        print(f'{x} * {i} = {x * i}')
+        print(f'{7} * {i} = {7 * i}')
     print('-' * 50)
 
 def main():
-    while True:
-        a = int(input('Table: '))
-        table(a)
+    table_7()
 
 if __name__ == '__main__':
     main()
